@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    nav[role='navigation'][aria-label='Pagination Navigation'] a,
+    nav[role='navigation'][aria-label='Pagination Navigation'] span {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    nav[role='navigation'][aria-label='Pagination Navigation'] svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
